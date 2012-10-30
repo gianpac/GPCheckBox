@@ -9,7 +9,10 @@ Uses CoreGraphics to do all the drawing needed.
 
 **Usage**
 
-`GPCheckBox checkbox = [[GPCheckBox alloc] init];`
+    GPCheckBox *checkbox = [[GPCheckBox alloc] init];
+    [checkbox addTarget:self action:@selector(checkBoxSelected:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:checkbox];
+    [checkbox release];
 
 Since it inherits from UIControl, you can use methods like:
 `– addTarget:action:forControlEvents:` to handle its selected state.
