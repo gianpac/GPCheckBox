@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26714F1D163F5CE700AAEB9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26714F1C163F5CE700AAEB9E /* UIKit.framework */; };
+		26714F1F163F5CE700AAEB9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26714F1E163F5CE700AAEB9E /* Foundation.framework */; };
+		26714F21163F5CE700AAEB9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26714F20163F5CE700AAEB9E /* CoreGraphics.framework */; };
+		26714F27163F5CE800AAEB9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26714F25163F5CE800AAEB9E /* InfoPlist.strings */; };
+		26714F29163F5CE800AAEB9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26714F28163F5CE800AAEB9E /* main.m */; };
+		26714F2D163F5CE800AAEB9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26714F2C163F5CE800AAEB9E /* AppDelegate.m */; };
+		26714F2F163F5CE800AAEB9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26714F2E163F5CE800AAEB9E /* Default.png */; };
+		26714F31163F5CE800AAEB9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26714F30163F5CE800AAEB9E /* Default@2x.png */; };
+		26714F33163F5CE800AAEB9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26714F32163F5CE800AAEB9E /* Default-568h@2x.png */; };
+		26714F36163F5CE800AAEB9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26714F35163F5CE800AAEB9E /* ViewController.m */; };
+		26714F39163F5CE800AAEB9E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26714F37163F5CE800AAEB9E /* ViewController_iPhone.xib */; };
+		26714F3C163F5CE800AAEB9E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26714F3A163F5CE800AAEB9E /* ViewController_iPad.xib */; };
+		26714F44163F5D0200AAEB9E /* GPCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 26714F43163F5D0200AAEB9E /* GPCheckBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26714F18163F5CE700AAEB9E /* GPCheckBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPCheckBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26714F1C163F5CE700AAEB9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26714F1E163F5CE700AAEB9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26714F20163F5CE700AAEB9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26714F24163F5CE800AAEB9E /* GPCheckBoxDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPCheckBoxDemo-Info.plist"; sourceTree = "<group>"; };
+		26714F26163F5CE800AAEB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26714F28163F5CE800AAEB9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26714F2A163F5CE800AAEB9E /* GPCheckBoxDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPCheckBoxDemo-Prefix.pch"; sourceTree = "<group>"; };
+		26714F2B163F5CE800AAEB9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26714F2C163F5CE800AAEB9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26714F2E163F5CE800AAEB9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		26714F30163F5CE800AAEB9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		26714F32163F5CE800AAEB9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		26714F34163F5CE800AAEB9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26714F35163F5CE800AAEB9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26714F38163F5CE800AAEB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		26714F3B163F5CE800AAEB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		26714F42163F5D0200AAEB9E /* GPCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCheckBox.h; sourceTree = "<group>"; };
+		26714F43163F5D0200AAEB9E /* GPCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPCheckBox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26714F15163F5CE700AAEB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26714F1D163F5CE700AAEB9E /* UIKit.framework in Frameworks */,
+				26714F1F163F5CE700AAEB9E /* Foundation.framework in Frameworks */,
+				26714F21163F5CE700AAEB9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26714F0D163F5CE700AAEB9E = {
+			isa = PBXGroup;
+			children = (
+				26714F22163F5CE700AAEB9E /* GPCheckBoxDemo */,
+				26714F1B163F5CE700AAEB9E /* Frameworks */,
+				26714F19163F5CE700AAEB9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26714F19163F5CE700AAEB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26714F18163F5CE700AAEB9E /* GPCheckBoxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26714F1B163F5CE700AAEB9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26714F1C163F5CE700AAEB9E /* UIKit.framework */,
+				26714F1E163F5CE700AAEB9E /* Foundation.framework */,
+				26714F20163F5CE700AAEB9E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26714F22163F5CE700AAEB9E /* GPCheckBoxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				26714F42163F5D0200AAEB9E /* GPCheckBox.h */,
+				26714F43163F5D0200AAEB9E /* GPCheckBox.m */,
+				26714F2B163F5CE800AAEB9E /* AppDelegate.h */,
+				26714F2C163F5CE800AAEB9E /* AppDelegate.m */,
+				26714F34163F5CE800AAEB9E /* ViewController.h */,
+				26714F35163F5CE800AAEB9E /* ViewController.m */,
+				26714F37163F5CE800AAEB9E /* ViewController_iPhone.xib */,
+				26714F3A163F5CE800AAEB9E /* ViewController_iPad.xib */,
+				26714F23163F5CE800AAEB9E /* Supporting Files */,
+			);
+			path = GPCheckBoxDemo;
+			sourceTree = "<group>";
+		};
+		26714F23163F5CE800AAEB9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26714F24163F5CE800AAEB9E /* GPCheckBoxDemo-Info.plist */,
+				26714F25163F5CE800AAEB9E /* InfoPlist.strings */,
+				26714F28163F5CE800AAEB9E /* main.m */,
+				26714F2A163F5CE800AAEB9E /* GPCheckBoxDemo-Prefix.pch */,
+				26714F2E163F5CE800AAEB9E /* Default.png */,
+				26714F30163F5CE800AAEB9E /* Default@2x.png */,
+				26714F32163F5CE800AAEB9E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26714F17163F5CE700AAEB9E /* GPCheckBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26714F3F163F5CE800AAEB9E /* Build configuration list for PBXNativeTarget "GPCheckBoxDemo" */;
+			buildPhases = (
+				26714F14163F5CE700AAEB9E /* Sources */,
+				26714F15163F5CE700AAEB9E /* Frameworks */,
+				26714F16163F5CE700AAEB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPCheckBoxDemo;
+			productName = GPCheckBoxDemo;
+			productReference = 26714F18163F5CE700AAEB9E /* GPCheckBoxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26714F0F163F5CE700AAEB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Giancarlo Pacheco";
+			};
+			buildConfigurationList = 26714F12163F5CE700AAEB9E /* Build configuration list for PBXProject "GPCheckBoxDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26714F0D163F5CE700AAEB9E;
+			productRefGroup = 26714F19163F5CE700AAEB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26714F17163F5CE700AAEB9E /* GPCheckBoxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26714F16163F5CE700AAEB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26714F27163F5CE800AAEB9E /* InfoPlist.strings in Resources */,
+				26714F2F163F5CE800AAEB9E /* Default.png in Resources */,
+				26714F31163F5CE800AAEB9E /* Default@2x.png in Resources */,
+				26714F33163F5CE800AAEB9E /* Default-568h@2x.png in Resources */,
+				26714F39163F5CE800AAEB9E /* ViewController_iPhone.xib in Resources */,
+				26714F3C163F5CE800AAEB9E /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26714F14163F5CE700AAEB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26714F29163F5CE800AAEB9E /* main.m in Sources */,
+				26714F2D163F5CE800AAEB9E /* AppDelegate.m in Sources */,
+				26714F36163F5CE800AAEB9E /* ViewController.m in Sources */,
+				26714F44163F5D0200AAEB9E /* GPCheckBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26714F25163F5CE800AAEB9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26714F26163F5CE800AAEB9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26714F37163F5CE800AAEB9E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26714F38163F5CE800AAEB9E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		26714F3A163F5CE800AAEB9E /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26714F3B163F5CE800AAEB9E /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26714F3D163F5CE800AAEB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26714F3E163F5CE800AAEB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26714F40163F5CE800AAEB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPCheckBoxDemo/GPCheckBoxDemo-Prefix.pch";
+				INFOPLIST_FILE = "GPCheckBoxDemo/GPCheckBoxDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26714F41163F5CE800AAEB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPCheckBoxDemo/GPCheckBoxDemo-Prefix.pch";
+				INFOPLIST_FILE = "GPCheckBoxDemo/GPCheckBoxDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26714F12163F5CE700AAEB9E /* Build configuration list for PBXProject "GPCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26714F3D163F5CE800AAEB9E /* Debug */,
+				26714F3E163F5CE800AAEB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26714F3F163F5CE800AAEB9E /* Build configuration list for PBXNativeTarget "GPCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26714F40163F5CE800AAEB9E /* Debug */,
+				26714F41163F5CE800AAEB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26714F0F163F5CE700AAEB9E /* Project object */;
+}
