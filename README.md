@@ -1,4 +1,4 @@
 GPCheckBox
 ==========
 
-This is the missing checkbox for iOS devices
+This is the missing checkbox for iOS devices.
